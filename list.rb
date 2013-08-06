@@ -11,6 +11,7 @@ class List
   end
 
   def complete_task(index)
+    # task should respond to complete
     tasks[index].complete!
   end
 
